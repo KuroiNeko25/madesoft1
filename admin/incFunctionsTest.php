@@ -1,4 +1,5 @@
 <?php
+include("$currDir/incFunctions.php");
 use PHPUnit\Framework\TestCase;
 //use Notification;
 
