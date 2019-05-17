@@ -1,4 +1,5 @@
 <?php
+$currDir=dirname(__FILE__);
 include("$currDir/incFunctions.php");
 use PHPUnit\Framework\TestCase;
 //use Notification;
