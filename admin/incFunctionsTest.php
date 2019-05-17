@@ -10,7 +10,7 @@ use PHPUnit\Framework\TestCase;
 final class NotificationTest extends TestCase{
 	public function testSendmail(){
 
-		$correo = [ "to" => "dipaloz.gmail.com", "name" => "Diana", "subject" => "asunto", "message" => "hola",  "debug" => "nada", ];
+		$correo = [ "name" => "Diana", "subject" => "asunto", "message" => "hola",  "debug" => "nada", ];
 		//$correo = [ "to" => "dipaloz@gmail.com", "name" => "Diana", "subject" => "asunto", "message" => "hola",  "debug" => "nada", ];
 
 		
