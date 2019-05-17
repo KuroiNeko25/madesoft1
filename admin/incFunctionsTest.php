@@ -11,7 +11,7 @@ final class NotificationTest extends TestCase{
 		
 		$correo = [ "subject" => "asunto", "message" => "hola", "name" => "Diana", "debug" => "nada",];
 		
-		$this->assertEquals(true, Notification::sendmail($correo));
+		$this->assertEquals(true, Request::sendmail($correo));
 	}
 
 }
