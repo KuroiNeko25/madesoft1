@@ -1,3 +1,5 @@
+<?php if(!defined('PREPEND_PATH')) define('PREPEND_PATH', '../') ?>
+
 <?php
 $currDir=dirname(__FILE__);
 include("$currDir/incFunctions.php");
