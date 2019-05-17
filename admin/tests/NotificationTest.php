@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Notification;
+//use Notification;
 
 final class NotificationTest extends TestCase{
 	public function testSendmail(){
