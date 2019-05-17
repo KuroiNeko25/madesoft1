@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 
 final class NotificationTest extends TestCase{
 	public function testSendmail(){
-		
+		$adminConfig = config('adminConfig');
 		$correo = [ "to" => "dipaloz@gmail.com", "name" => "Diana", "subject" => "asunto", "message" => "hola",  "debug" => "nada", ];
 		
 		$this->assertEquals(true, sendmail($correo));
