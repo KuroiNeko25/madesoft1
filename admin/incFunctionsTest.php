@@ -6,11 +6,10 @@ use PHPUnit\Framework\TestCase;
 
 final class NotificationTest extends TestCase{
 	public function testSendmail(){
-		;$miObj = new Notification();
-		
+		$miObj =  Notification::placeholder();
 		$correo = [ "subject" => "asunto", "message" => "hola", "name" => "Diana", "debug" => "nada",];
 		
-		$this->assertEquals(true, Notification::sendmail($correo));
+		$this->assertEquals(true, $miObj->sendmail($correo));
 	}
 
 }
