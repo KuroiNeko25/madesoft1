@@ -16,5 +16,12 @@ final class NotificationTest extends TestCase{
 		
 		$this->assertEquals(true, sendmail($correo));
 	}
+	
+	public function testShow(){
+		$opt = array();		
+		$this->assertEquals('<bar><foo/></bar>', show($opt));
+	}
+
 
 }
+
