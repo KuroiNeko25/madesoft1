@@ -21,6 +21,10 @@ final class NotificationTest extends TestCase{
 		$opt = array();		
 		$this->assertEquals('<bar><foo/></bar>', show($opt));
 	}
+		
+	public function testPlaceholder(){
+		$this->assertEquals('<bar><foo/></bar>', placeholder());
+	}
 
 
 }
