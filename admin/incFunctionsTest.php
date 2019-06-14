@@ -5,7 +5,7 @@ $currDir=dirname(__FILE__);
 include("$currDir/../lib.php");
 include("$currDir/incFunctions.php");
 use PHPUnit\Framework\TestCase;
-//hola
+
 
 final class NotificationTest extends TestCase{
 	public function testSendmail(){
